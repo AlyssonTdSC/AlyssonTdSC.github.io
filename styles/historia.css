@@ -9,3 +9,37 @@
     padding: 5rem;
     align-items: center;
 }
+
+.box {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    background-color: #137DC5;
+    padding: 35px;
+    box-shadow: -10px 10px 0px 0px black;
+    margin: 0 auto 100px auto;
+    color: white;
+}
+
+.box p {
+    font-size: 25px;
+    margin: 35px 0;
+}
+
+.titulo {
+    text-align: center;
+    margin: 60px 0 30px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.hashtag {
+    text-align: center;
+    color: black;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,6 +1,5 @@
 body {
   height: 100vh;
-  overflow: hidden;
 }
 
 .fade-in-out {
@@ -113,7 +112,7 @@ a:hover, a:active, a:visited {
   z-index: -999;
   animation: imagem 3s;
   width: 100%;
-  height: 100%;
+  height: fit-content;
 }
 
 .fade-in-out img {
@@ -122,4 +121,4 @@ a:hover, a:active, a:visited {
 
 .parceiros {
   margin-top: 10rem;
-}
+} 
