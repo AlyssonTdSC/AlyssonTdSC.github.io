@@ -1,0 +1,39 @@
+@import url('./giro.css');
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.direita, .historia, .esquerda {
+    padding: 20px;
+}
+
+.direita, .esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.titulos, .estadio, .uniforme {
+    padding: 20px;
+    width: 100%;
+}
+
+.historia h1 {
+    text-align: center;
+    color: white;
+    opacity: 0.4;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.historia p {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}

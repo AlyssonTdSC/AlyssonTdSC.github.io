@@ -1,0 +1,125 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fade-in-out {
+  position: absolute;
+}
+
+.img, .descricao {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+  height: fit-content;
+}
+
+.logo {
+  width: 400px;
+  display: block;
+  margin: 20px auto;
+}
+
+.descricao {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.box {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  background-color: #137DC5;
+  padding: 35px;
+  box-shadow: 10px 10px 0px 0px black;
+  border: 5px solid black;
+  margin: 0 auto 100px auto;
+}
+
+.titulo, .texto {
+  color: white;
+}
+
+.titulo {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+a {
+  display: block;
+  margin: 0px auto;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #137DC5;
+  padding: 15px;
+  box-shadow: 3px 3px 0px 0px black;
+  border: 2px solid black;
+  margin-bottom: 70px;
+}
+
+a:hover, a:active, a:visited {
+  color: white;
+}
+
+.parceiros {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.parceiros img {
+  width: 150px;
+  height: fit-content;
+  margin: 0 40px;
+}
+
+@keyframes imagem {
+  0% {
+    z-index: 999;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    z-index: 999;
+  }
+}
+
+.fade-in-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -999;
+  animation: imagem 3s;
+  width: 100%;
+  height: 100%;
+}
+
+.fade-in-out img {
+  width: 100%;
+}
+
+.parceiros {
+  margin-top: 10rem;
+}

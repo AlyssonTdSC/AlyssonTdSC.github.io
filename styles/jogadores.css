@@ -1,0 +1,66 @@
+@import url('./giro.css');
+
+.todos-retangulos {
+    align-items: center;
+    justify-content: center;
+}
+
+.retangulos {
+    margin-top: 42.5px;
+    min-width: 85px;
+    align-self: center;
+    justify-self: center;
+}
+
+.retangulo1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 214px;
+    border-radius: 15px;
+    align-items: center;
+}
+.retangulo1 img {
+    width: 8.6rem;
+    height: 90%;
+    justify-items: center;
+}
+
+
+.retangulo2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 214px;
+    margin-top: -.3rem;
+    border-radius: 15px;
+    align-items: center;
+}
+.retangulo2 img {
+    width: 8.6rem;
+    height: 90%;
+    justify-items: center;
+}
+
+.retangulo3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 215px;
+    margin-top: -.3rem;
+    border-radius: 15px;
+}
+.retangulo3 img {
+    width: 8.6rem;
+    height: 90%;
+    justify-items: center;
+}
+
+.retangulo1 img:hover, .retangulo2 img:hover, .retangulo3 img:hover {
+    animation: giro 1.5s ease-in-out;
+} 

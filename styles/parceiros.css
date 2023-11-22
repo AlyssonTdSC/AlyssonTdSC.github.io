@@ -1,0 +1,11 @@
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parceiros {
+    width: 75%;
+    padding: 5rem;
+    align-items: center;
+}

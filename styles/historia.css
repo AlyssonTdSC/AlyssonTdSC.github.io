@@ -1,0 +1,11 @@
+.fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia {
+    height: 40%;
+    padding: 5rem;
+    align-items: center;
+}
